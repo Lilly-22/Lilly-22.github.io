@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+
     <script src="./txt.js" defer></script>
 
 </head>
@@ -55,125 +56,206 @@
         </div>
         </div>
     </section>
-    <section id="about">
-      <div class="container">
-      <div class="grid_item">
-        <h2 class="section-title"> A Propos</h2>
-       
-        <h3>Qui suis-je ?</h3>
-        
-        <p> Bienvenue sur mon portfolio ! <br> Je m’appelle Lilly Guevorkian, étudiante en BTS Services Informatiques aux Organisations (SIO) avec une spécialisation en SLAM.  J’ai créé ce site dans le cadre de mes études pour partager mes projets et mes connaissances dans l’univers de l’informatique.
-            Dans ce site, vous trouverez des informations sur mes compétences techniques, les projets que j'ai réalisés, ma veille informatique et mes différents stages dans le domaine. 
-            Bonne visite !</p>
-        <br>
-        <br>
-      </div>
-      </div>
-    </section>
-   
-    <section id="skills" class="skills">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Mes Compétences</h2> <br>
-                <p> Durant mes deux années de BTS SIO j'ai pu acquérir de nouvelles compétences. 
-                    <br>Les voici :</p>
-                <br
-            </div>
-            <div class="grid">
-                <div class="grid_item">
-                    <h3> Compétences en développement</h3>
-                    <ul class="list-unstyled">
-                        <li>
-                            <p> HTML</p>
-                        </li>
-                        <li>
-                            <p> CSS</p>
-                        </li>
-                        <li>
-                            <p> JAVASCRIPT</p>
-                        </li>
-                        <li>
+
+    <section id="about" class="about">
+        <div class="about-container">
+          <h2 class="section-title">À propos</h2>
+      
+          <div class="about-content">
+            <p class="about-text">
+              <strong>Bienvenue sur mon portfolio !</strong><br><br>
+              Je m’appelle <strong>Lilly Guevorkian</strong>, étudiante en <strong>BTS Services Informatiques aux Organisations (SIO)</strong> avec une spécialisation en <strong>SLAM</strong>.
+              J’ai créé ce site dans le cadre de mes études pour partager mes projets et mes connaissances dans l’univers de l’informatique.
+              <br><br>
+              Dans ce site, vous trouverez des informations sur mes <strong>compétences techniques</strong>, les <strong>projets</strong> que j'ai réalisés, ma <strong>veille informatique</strong> et mes différents <strong>stages</strong> dans le domaine.
+              <br><br>
+              <em>Bonne visite !</em>
+            </p>
+      
+            <a href="Curriculum_vitae_Informatique.pdf" class="cv-button" target="_blank">📄 Consulter mon CV</a>
+          </div>
+        </div>
+      </section>
+      
+
+      <section id="skills" class="skills">
+        <div class="skills-container">
+            <h2 class="section-title">Mes Compétences</h2>
+            <div class="skills-grid">
+                <!-- Compétences en développement -->
+                <div class="skill-column">
+                    <h3>Compétences en développement</h3>
+                    <div class="skills-icons">
+                        <div class="skill-item">
+                            <img src="html.png" alt="HTML" class="skill-icon">
+                            <p>HTML</p>
+                        </div>
+                        <div class="skill-item">
+                            <img src="css.svg" alt="CSS" class="skill-icon">
+                            <p>CSS</p>
+                        </div>
+                        <div class="skill-item">
+                            <img src="javascript.png" alt="JavaScript" class="skill-icon">
+                            <p>JAVASCRIPT</p>
+                        </div>
+                        <div class="skill-item">
+                            <img src="csharp.png" alt="C#" class="skill-icon">
                             <p>C#</p>
-                        </li>
-                        <li>
+                        </div>
+                        <div class="skill-item">
+                            <img src="php.png" alt="PHP" class="skill-icon">
                             <p>PHP</p>
-                        </li>
-                        <li>
+                        </div>
+                        <div class="skill-item">
+                            <img src="sqll.png" alt="SQL" class="skill-icon">
                             <p>SQL</p>
-                        </li>
-                        <li>
+                        </div>
+                        <div class="skill-item">
+                            <img src="python.png" alt="Python" class="skill-icon">
                             <p>PYTHON</p>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="grid_item">
-                    <h3> Compétences d'utilisation de différents logiciels / outils</h3>
-                    <div class="progressbar">
-                    <div class="bar" > Visual Studio</div>
+    
+                <!-- Logiciels & Outils -->
+                <div class="skill-column">
+                    <h3>Logiciels & Outils</h3>
+                    <div class="skills-icons">
+                        <div class="skill-item">
+                            <img src="visual-studio.png" alt="Visual Studio" class="skill-icon">
+                            <p>Visual Studio</p>
+                        </div>
+                        <div class="skill-item">
+                            <img src="visual-studio-code.png" alt="Visual Studio Code" class="skill-icon">
+                            <p>Visual Studio Code</p>
+                        </div>
+                        <div class="skill-item">
+                            <img src="datagrip.png" alt="DataGrip" class="skill-icon">
+                            <p>DataGrip</p>
+                        </div>
+                        <div class="skill-item">
+                            <img src="mariadb.svg" alt="MariaDB" class="skill-icon">
+                            <p>MariaDB</p>
+                        </div>
+                        <div class="skill-item">
+                            <img src="gitlab.png" alt="GitLab" class="skill-icon">
+                            <p>GitLab</p>
+                        </div>
+                        <div class="skill-item">
+                            <img src="github.png" alt="GitHub" class="skill-icon">
+                            <p>GitHub</p>
+                        </div>
+                        <div class="skill-item">
+                            <img src="git.png" alt="Git" class="skill-icon">
+                            <p>Git</p>
+                        </div>
+                        <div class="skill-item">
+                            <img src="ssms.webp" alt="SQL Server" class="skill-icon">
+                            <p>SQL Server</p>
+                        </div>
                     </div>
-                    <div class="progressbar">
-                    <div class="bar"> Visual Studio Code</div>
-                    </div>
-                    <div class="progressbar">
-                    <div class="bar"> DataGrip</div>
-                    </div>
-                    <div class="progressbar">
-                    <div class="bar"> MariaDB</div>
-                    </div>
-                    <div class="progressbar">
-                    <div class="bar"> Gitlab</div>
-                    </div>
-                    <div class="progressbar">
-                    <div class="bar"> SQL Server Management</div>
-                    </div>
-                    
-                    <h3> Compétences d'utilisation de différents systèmes d'exploitation</h3>
-                    <div class="progressbar"></div>
-                    <div class="bar"> Windows</div>
-                    </div>
-                    <div class="progressbar"></div>
-                    <div class="bar"> Obuntu</div>
-                    </div>
-                    <div class="progressbar"></div>
-                    <div class="bar"> Debian</div>
+                </div>
+    
+                <!-- Compétences d'utilisation des systèmes d'exploitation -->
+                <div class="skill-column">
+                    <h3>Compétences d'utilisation de différents systèmes d'exploitation</h3>
+                    <div class="skills-icons">
+                        <div class="skill-item">
+                            <img src="windows.webp" alt="Windows" class="skill-icon">
+                            <p>Windows</p>
+                        </div>
+                        <div class="skill-item">
+                            <img src="ubuntu.png" alt="Ubuntu" class="skill-icon">
+                            <p>Ubuntu</p>
+                        </div>
+                        <div class="skill-item">
+                            <img src="debian.svg" alt="Debian" class="skill-icon">
+                            <p>Debian</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
-
     </section>
-    <section id="projet" class="projet">
+    
+      
+            
+      
+    <section id="project" class="project">
         <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Mes projets</h2>
-                <p> Durant cette année j'ai pu faire une mise en place de ce que l'on m'a appris, avec deux projets concrétisant mes conaissances en développement.
-                    <br> Vous pouvez les retrouver ci-dessous :
-                    <div class="projet_item right">
-                        <div class="projet_image">
-                            <img width="560" height="453" src="./InfoDev.png" alt="Lilly Guevorkian">
-                            <img width="560" height="453" src="./MaBanque.png" alt="Lilly Guevorkian">
-                        </div>
-                    </div>
-                </p>
+          <div class="section-header">
+            <h2 class="section-title">Mes Projets</h2>
+          </div>
+      
+          <div class="projects-container">
+            <!-- Tableau 1 : Gestion Matériel en C# -->
+            <div class="project-table">
+              <h3>Gestion Matériel (C#)</h3>
+              <table>
+                <tr>
+                  <th>Description</th>
+                  <td>Réalisation d'une application type client lourd pour la gestion du matériel du club Lyonpalme.</td>
+                </tr>
+                <tr>
+                  <th>Backend & Frontend</th>
+                  <td>Application exécutable développée en C# en utilisant des forms pour le visuel.</td>
+                </tr>
+                <tr>
+                  <th>SQL</th>
+                  <td>Création et administration de la base de données avec SQL Server.</td>
+                </tr>
+              </table>
             </div>
-        </div>     
-    </section>
-         
+      
+            <!-- Tableau 2 : Inscription des adhérents (Laravel - PHP) -->
+            <div class="project-table">
+              <h3>Inscription des Adhérents (Laravel - PHP)</h3>
+              <table>
+                <tr>
+                  <th>Description</th>
+                  <td>Réalisation d'une application type client léger pour les inscriptions des adhérents au club Lyonpalme.</td>
+                </tr>
+                <tr>
+                  <th>Backend & Frontend</th>
+                  <td>Application web développée en PHP à l'aide du framework Laravel.</td>
+                </tr>
+                <tr>
+                  <th>SQL</th>
+                  <td>Création et administration de la base de données avec MariaDB.</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+      
 
 
     <section id="stages" class="stages">
+        <h2 class="section-title">Mes Stages</h2>
         <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Mes Stages</h2>
-                <p>    Durant mes deux années de BTS SIO, j'ai pu effectuer 2 stages enrichissants, qui m'ont orientée vers la cybersécurité.<br>Voici les missions et rapports associés :</p>
-                <ul class="list-unstyled">
-                    <li><a href="Rapport_de_stage_Calypt.docx" target="_blank">Rapport de Stage 1 - Entreprise CALYPT</a></li>
-                    <li><a href="lien_rapport_stage_2.pdf" target="_blank">Rapport de Stage 2 - Association AISP/SPIA</a></li>
-                </ul>
-            </div>
+          <!-- Stage 1 - Calypt -->
+          <div class="stage">
+            <h3>Calypt</h3>
+            <p><strong>Période :</strong> 6 Mai 2024 au 7 Juin 2024 (5 semaines)</p>
+            <p>Scraping en Python et mise en place d’une base de donnée SQLite3.</p>
+            <p>Création d’un script de scan de surface en Python.</p>
+            <a href="Rapport_de_stage_Calypt.docx" class="download-link" target="_blank">Voir le rapport de stage (Calypt)</a>
+          </div>
+      
+          <!-- Stage 2 - AISP/SPIA -->
+          <div class="stage">
+            <h3>AISP / SPIA</h3>
+            <p><strong>Période :</strong> 6 Janvier 2025 au 21 Février 2025 (7 semaines)</p>
+            <p>Création de deux sites web avec WordPress (choix du thème, personnalisation, intégration de contenu).</p>
+            <p>Modification et amélioration d’un site existant (ajout de fonctionnalités, optimisation du design, mise à jour du contenu).</p>
+            <a href="Rapport_de_stage_AISP-SPIA.docx" class="download-link" target="_blank">Rapport de Stage 2 - Association AISP/SPIA</a></li>
+
+          </div>
         </div>
-    </section>
+      </section>
+      
+      
 
 
 
@@ -181,85 +263,64 @@
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Tableau de Synthèse</h2>
-                <p>Accédez à mon tableau de synthèse, qui récapitule mes compétences, projets et technologies utilisées durant mes études en BTS SIO :</p>
-                <a href="./Tableau.png" target="_blank" class="download-link">Télécharger le Tableau de Synthèse</a>
+               
             </div>
         </div>
+        <iframe src="tableau_synthese.xlsx" class="pdf-viewer"></iframe>
     </section>
 
+    
     <section id="veille" class="veille">
         <div class="container">
-            <h2 class="section-title">Ma Veille</h2>
-            <div class="veille-slider-container">
-                <div class="veille-slider">
-                    <!-- Slide 1 -->
-                    <div class="slide">
-                        <h3>Les attaques informatiques dans le domaine de la santé</h3>
-                        <p>Dans un secteur aussi critique que la santé, les attaques informatiques représentent une menace croissante pour la sécurité des données et la confidentialité des patients....</p>
-                        <img src="./Veille1.1.png" alt="">
-                    </div>
-                    <!-- Slide 2 -->
-                    <div class="slide">
-                        <h3>Veille attaques dans le domaine santé</h3>
-                        <p>Différentes attaques récentes ..</p>
-                        <img src="./Veille1.2.png" alt="">
-                    </div>
-                    <!-- Slide 3 -->
-                    <div class="slide">
-                        <h3>Veille attaques dans le domaine santé</h3>
-                        <p>Différentes attaques récentes ..</p>
-                        <img src="./veille1.3.png" alt="Intelligence Artificielle">
-                    </div>
-                    <!-- Slide 4 -->
-                    <div class="slide">
-                        <h3>Veille attaques dans le domaine santé</h3>
-                        <p>Différentes attaques récentes ...</p>
-                        <img src="img/veille1.4.png" alt="Cloud Computing">
-                    </div>
-                    <!-- Slide 5 -->
-                    <div class="slide">
-                        <h3>Veille attaques dans le domaine santé</h3>
-                        <p>Différentes attaques récentes ..</p>
-                        <img src="img/veille1.5.png" alt="Big Data">
-                    </div>
-                </div>
-    
-                <!-- Boutons de navigation -->
-                <button class="prev">&#10094;</button>
-                <button class="next">&#10095;</button>
+          <h2 class="section-title">Ma Veille</h2>
+          <div class="veille-slider-container">
+            <div class="veille-slider">
+              <!-- Slide 1 -->
+              <div class="slide">
+                <h3>Les attaques informatiques dans le domaine de la santé</h3>
+                <p>Dans un secteur aussi critique que la santé, les attaques informatiques représentent une menace croissante pour la sécurité des données et la confidentialité des patients....</p>
+                <img src="./Veille1.1.png" alt="">
+              </div>
+              <!-- Slide 2 -->
+              <div class="slide">
+                <h3>Veille attaques dans le domaine santé</h3>
+                <p>Différentes attaques récentes ..</p>
+                <img src="./Veille1.2.png" alt="">
+              </div>
+              <!-- Slide 3 -->
+              <div class="slide">
+                <h3>Veille attaques dans le domaine santé</h3>
+                <p>Pour y répondre</p>
+                <img src="./Veille1.3.png" alt="Intelligence Artificielle">
+              </div>
+              <!-- Slide 4 -->
+              <div class="slide">
+                <h3>Veille attaques dans le domaine santé</h3>
+                <p></p>
+                <img src="./Veille1.4.png" alt="Cloud Computing">
+              </div>
             </div>
+            <!-- Boutons de navigation -->
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+          </div>
         </div>
-    </section>
+      </section>
+      
     
                 
 
 
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Contact</h2>
-                <p>Pour en savoir plus</p>
-            </div>
-            <div class="form-imagee">
-                <form action="contact.php" class="form">
-                    <label for="firstname">
-                        <input type="text" name="firstname" id="firstname" placeholder="Nom">
-                    </label>
-                    <label for="lastname">
-                        <input type="text" name="lastname" id="lastname" placeholder="Prénom">
-                    </label>
-                    <label for="email">
-                        <input type="email" name="email" id="email" placeholder="mail">
-                    </label>
-                    <textarea name="message" id="message" placeholder="Message"></textarea>
-                    <input type="submit" class="btn" value="Envoyer">
-                </form> 
-                <div class="imagee">
-                    <img src="/img.png" alt="Contact Image">
-                </div>
-            </div>
+    <section id="contact" class="contact-card">
+        <h2 class="section-title">Contact</h2>
+        <div class="card">
+          <div class="card-content">
+            <p><strong>GitHub :</strong> <a href="https://github.com/Lilly-22/Lilly-22.github.io" target="_blank">Lilly-22</a></p>
+            <p><strong>Email :</strong> <a href="mailto:lillyguevorkian03@gmail.com">lillyguevorkian03@gmail.com</a></p>
+          </div>
         </div>
-    </section>
+      </section>
+      
     
    
 
